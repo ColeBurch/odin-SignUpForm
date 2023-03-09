@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    display: flex;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 70vw;
+}
+
+.mountains {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 30vw;
+    z-index: -1;
+}
+
+.odin {
+    height: 10vh;
+    width: 10vw;
+}
