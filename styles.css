@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     display: flex;
+    margin: 0px;
 }
 
 .leftSide {
@@ -8,6 +9,7 @@ html, body {
     flex-direction: column;
     height: 100vh;
     width: 30vw;
+    justify-content: space-between;
 }
 
 .rightSide {
@@ -26,7 +28,29 @@ html, body {
     z-index: -1;
 }
 
+.sidebar {
+    display: flex;
+    background-color: black;
+    opacity: .30;
+    margin-top: 20vh;
+    justify-content: center;
+}
+
 .odin {
     height: 10vh;
     width: 10vw;
+    align-self: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.sidetext {
+    color: white;
+    font-size: 2.5vw;
+    align-self: center;
+}
+
+.creator {
+    font-size: 2vh;
+    text-align: center;
 }
