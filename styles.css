@@ -89,7 +89,7 @@ form {
     box-shadow: 0px 1px 10px #d8d8d8, 0px -1px 10px #d8d8d8;
 }
 
-.box {
+.box, .passwordBox, .confirmBox {
     display: flex;
     flex-direction: column;
 }
@@ -109,4 +109,8 @@ button {
     font-size: 2vh;
     font-weight: bold;
     border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
 }
